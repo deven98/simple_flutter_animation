@@ -53,7 +53,7 @@ class _MyHomePageState extends State<MyHomePage> with SingleTickerProviderStateM
     });
 
     // Repeat the animation after finish
-    controller.repeat(reverse: true);
+    controller.repeat();
 
     //For single time
     //controller.forward()
